@@ -5,9 +5,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "statik"
 version = "0.10"
-description = "Statik is a high-performance, plug-and-play static file server for ASGI applications. Built for speed and simplicity, it seamlessly serves assets like HTML, CSS, JS, images, and more—without external dependencies or bulky middleware.
-
-Designed to fit naturally into async Python frameworks like Nexios, Statik gives you fine-grained control over file serving, cache headers, and MIME types—while keeping your stack minimal."
+description = "Statik is a high-performance, plug-and-play static file server for ASGI applications. Built for speed and simplicity, it seamlessly serves assets like HTML, CSS, JS, images, and more—without external dependencies or bulky middleware. Designed to fit naturally into async Python frameworks like Nexios, Statik gives you fine-grained control over file serving, cache headers, and MIME types—while keeping your stack minimal."
 authors = ["Chidebele Dunamis <techwithdunamix@gmail.com>"]
 license = "BSD-"
 homepage = "https://github.com/nexios-labs/statik"
@@ -33,7 +31,6 @@ keywords = [
     "nexios"
     
 ]
-
 [tool.poetry.dependencies]
 python = ">=3.9"
 anyio = "4.9.0"
