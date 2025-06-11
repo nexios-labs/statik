@@ -32,7 +32,7 @@ Statik is a high-performance static file server designed for ASGI applications. 
 ## Installation
 
 ```bash
-pip install statik
+pip install asgi_statik
 ```
 
 ## Basic Usage
