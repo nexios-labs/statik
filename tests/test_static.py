@@ -4,10 +4,10 @@ from pathlib import Path
 from typing import AsyncGenerator, Dict, List, Optional, Tuple, Union, Any, Awaitable, Callable, cast
 
 from nexios.testing import Client
-from nexios_static import StaticFiles, StaticFilesConfig
+from statik import StaticFiles, StaticFilesConfig
 from nexios import NexiosApp
 from nexios.types import Message
-from nexios_static.types import Scope, Receive, Send
+from statik.types import Scope, Receive, Send
 
 
 class StaticFilesWrapper(NexiosApp):
