@@ -13,7 +13,7 @@ license = "BSD-"
 homepage = "https://github.com/nexios-labs/statik"
 repository = "https://github.com/nexios-labs/statik"
 documentation = "https://github.com/nexios-labs/statik/README.md"
-readme = "readme.md"
+readme = "README.md"
 keywords = [
     "static-files",
     "asgi",
